@@ -6,6 +6,7 @@ from subtraction import subtraction
 from multiplication import multiplication
 
 
+
 print("=========================")
 print("|   Matrix Calculator   |")
 print("=========================")
@@ -24,11 +25,14 @@ if choice == 6:
     exit()
 
 
+
 row1 = int(input("Enter no. of rows in matrix 1: "))
 
 col1 = int(input("Enter no. of columns in matrix 1: "))
 
 matrix = input_matrix(row1, col1)
+
+
 
 if choice == 4:
     transpose(matrix, row1, col1)
@@ -44,3 +48,5 @@ if choice == 2:
 
 if choice == 3:
     multiplication(matrix, row1, col1)
+
+

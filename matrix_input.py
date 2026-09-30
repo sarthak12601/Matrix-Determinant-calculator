@@ -38,7 +38,7 @@ def input_matrix(row1, col1):
         v=int(input("enter a₂₂:"))
         matrix=[
             [s,t],
-            [u,v]
+            [u,v]          
         ]
         print(*matrix,sep="\n")
 
