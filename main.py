@@ -5,7 +5,7 @@ from addition import addition
 from subtraction import subtraction
 from multiplication import multiplication
 
-
+# Code starts 
 
 print("=========================")
 print("|   Matrix Calculator   |")
@@ -24,7 +24,7 @@ if choice == 6:
     print("Exiting Matrix Calculator...")
     exit()
 
-
+# Input for rows and columns
 
 row1 = int(input("Enter no. of rows in matrix 1: "))
 
@@ -32,7 +32,7 @@ col1 = int(input("Enter no. of columns in matrix 1: "))
 
 matrix = input_matrix(row1, col1)
 
-
+# Different choices or operations user can perform 
 
 if choice == 4:
     transpose(matrix, row1, col1)
@@ -49,4 +49,4 @@ if choice == 2:
 if choice == 3:
     multiplication(matrix, row1, col1)
 
-
+    
